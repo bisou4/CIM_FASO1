@@ -11,13 +11,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{{url('/')}}">Blog</a></li>
-          <li><a href="{{url('perso.single-post')}}">Single Post</a></li>
-          <li class="dropdown"><a href="{{url('perso.category')}}"><span>Categories</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="{{url('/')}}">ACCUIEL</a></li>
+          <li><a href="{{url('poste')}}">NOS POSTES</a></li>
+          <li class="dropdown"><a href="{{url('nos_categories')}}"><span>CATEGORIES</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="{{url('perso.search-result')}}">Search Result</a></li>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <li><a href="{{url('recherche')}}">RECHERCHE</a></li>
+              <li><a href="#">Personnel</a></li>
+              <li class="dropdown"><a href="#"><span>Poste</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -32,8 +32,8 @@
             </ul>
           </li>
 
-          <li><a href="{{url('perso.about')}}">About</a></li>
-          <li><a href="{{url('perso.contact')}}">Contact</a></li>
+          <li><a href="{{url('apropos')}}">A_PROPOS</a></li>
+          <li><a href="{{url('contact')}}">CONTACT</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -47,7 +47,7 @@
 
         <!-- ======= Search Form ======= -->
         <div class="search-form-wrap js-search-form-wrap">
-          <form action="{{url('perso.search-result')}}" class="search-form">
+          <form action="{{url('recherche')}}" class="search-form">
             <span class="icon bi-search"></span>
             <input type="text" placeholder="Search" class="form-control">
             <button class="btn js-search-close"><span class="bi-x"></span></button>

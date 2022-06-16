@@ -18,21 +18,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('perso.single-post', function () {
+Route::get('poste', function () {
     return view('perso.single-post');
 });
-Route::get('perso.category', function () {
+Route::get('nos_categories', function () {
     return view('perso.category');
 });
-Route::get('perso.about', function () {
+Route::get('apropos', function () {
     return view('perso.about');
 });
 
-Route::get('perso.search-result', function () {
+Route::get('recherche', function () {
     return view('perso.search-result');
 });
 
-Route::get('perso.contact', function () {
+Route::get('contact', function () {
     return view('perso.contact');
 });
 
